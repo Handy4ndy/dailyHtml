@@ -7,7 +7,7 @@ const currentDay = currentDate.getDay(); // Returns a number (0-6)
 const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
 // Relative path to the HTML files
-const htmlFilePath = `Assets/Html/${dayNames[currentDay]}.html`;
+const htmlFilePath = `assets/html/${dayNames[currentDay]}.html`;
 
 // Load the content for the current day
 fetch(htmlFilePath)
